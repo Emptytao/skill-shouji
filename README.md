@@ -4,25 +4,26 @@
 > `cinema-dna-21x9x3` 已属于作者的 15 个仓库，因此按唯一项目计数为 16 个。  
 > 这里分析的是仓库中的 README、SKILL、references、scripts、templates、examples 和测试结构，不只是 GitHub 简介。
 
-## 快速选择
+## 16 个 Skill 速查表
 
-| 需求 | 首选 |
-|---|---|
-| 单张电影感图 / 跨模型提示词 | zy-cinematic-realism |
-| 21:9 三联或九镜故事板 | cinema-dna-21x9x3 |
-| 写实角色、服装和连续性 | character-casting-studio-skill |
-| 写实人像 | fantasy-life-force-portrait-photography |
-| 任意地点的摄影模拟 | fantasy-photography-simulation-github |
-| 电影海报 | fantasy-movie-poster-skill |
-| 东方文化海报 | chinese-poster-skill / fantasy-dongfang-jianyuehaibao |
-| 地域文化视觉 | regional-culture-poster |
-| 文化 KV 主视觉 | culture-fragment-poster-engine |
-| 极简杂志海报 | FANTASY-Minimal-Magazine |
-| 照片转手绘 | photo-revival |
-| 只改照片中的人物 | street-photo-illustration-skill |
-| 车窗旅行风景 | window-scenery-skill |
-| 趣味社交媒体内容 | fantasy-qiqiguaiguai-skill |
-| Logo 方向探索 | minimal-logo-design |
+| Skill | 核心作用与侧重点 | 什么时候调用 |
+|---|---|---|
+| zy-cinematic-realism | 跨模型电影提示词编译、检查和修复；侧重 Scene Master、模型 adapter、连续性与结果诊断。 | 单张电影图、Prompt Check、Midjourney/GPT Image/Seedream/Nano Banana 转译或返修。 |
+| cinema-dna-21x9x3 | 21:9 单帧、三联和九镜故事板；侧重镜头叙事、视线流量、镜头账本与拼版。 | 三联图、九宫格、连续镜头、电影分镜或需要画面之间有因果关系时。 |
+| character-casting-studio-skill | 写实角色定妆与连续性；侧重年龄、体态、发型、服装和材质锚点。 | 短剧、电影、系列项目需要先固定角色外观和服装时。 |
+| fantasy-life-force-portrait-photography | 有身体状态和真实皮肤质感的人像摄影。 | 写真、情绪肖像、人物海报；要求“有生命感、不塑料”时。 |
+| fantasy-photography-simulation-github | 把任意地点按真实摄影任务处理；侧重相机位置、曝光和物理质感。 | 幻想地点、异星、建筑或旅拍题材，希望像实拍照片而非概念图时。 |
+| fantasy-movie-poster-skill | 电影类型判断、主视觉、片名和底图/字层/网格的分层海报流程。 | 已有故事、剧照或分镜，需要制作电影海报、片名与封面时。 |
+| FANTASY-Minimal-Magazine | 克制留白的 3:4 杂志与编辑海报。 | 艺术、室内、家具、时尚和生活方式内容需要安静出版感时。 |
+| chinese-poster-skill | 当代中文/东方海报设计；侧重文化结构、中文标题和批量方向测试。 | 展览、博物馆、工艺、茶香、文化品牌等需要中文主视觉时。 |
+| fantasy-dongfang-jianyuehaibao | 东方文化的现代简约编辑海报；侧重文化物证、A/B/C 方案与测试。 | 想要现代东方感、拒绝古风符号堆叠时。 |
+| regional-culture-poster | 中国地域文化的当代海报；侧重地域专属性而非旅游宣传。 | 城市、地方文化、非遗、区域品牌和文化活动时。 |
+| culture-fragment-poster-engine | 将文化碎片、纹理、物件和文字快速压缩成 KV 主视觉。 | 已有文化线索和素材，需要快速出活动主画面或多套视觉方向时。 |
+| fantasy-qiqiguaiguai-skill | 轻松、奇趣、易传播的社交媒体图、拼贴与中文排版。 | 小红书、抖音、宠物、旅行、趣味海报或需要反差记忆点时。 |
+| photo-revival | 将整张生活照片转成诗意白纸手绘。 | 家庭照、旅行照、纪念图需要整体插画化时。 |
+| street-photo-illustration-skill | 仅替换真实照片中的人物为线稿或 chibi，环境不变。 | 想保留街景和透视，只把人物插画化时。 |
+| window-scenery-skill | 车窗/火车窗视角的旅行风景；侧重窗框、反射和移动感。 | 用户明确提到车窗外、火车旅行、移动观看或离别氛围时。 |
+| minimal-logo-design | 原创 Logo 方向探索；侧重字标、几何标、图形系统与识别层级。 | 新品牌需要 Logo、双语字标或视觉识别延展时。 |
 
 ## 1. zy-cinematic-realism
 
